@@ -1,0 +1,7 @@
+invoice_no,client_name,amount,due_date,contact_email,follow_up_count
+INV-101,Acme Corp,1500.00,2026-05-08,billing@acmecorp.com,0
+INV-102,Globex Inc,2300.50,2026-05-01,rajatverma9494@gmail.com,1
+INV-103,Soylent Corp,450.00,2026-04-23,aniruddhmishra2006@gmail.com,2
+INV-104,Initech,8900.00,2026-04-16,ap@initech.com,3
+INV-105,Umbrella Corp,50000.00,2026-03-15,wesker@umbrella.com,4
+INV-106,Stark Ind,12000.00,2026-05-15,tony@stark.com,0

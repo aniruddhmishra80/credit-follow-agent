@@ -1,0 +1,956 @@
+[
+    {
+        "timestamp": "2026-05-11T02:52:59.899358",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Friendly Reminder: Invoice INV-101 from Acme Corp is Due",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T02:53:01.880072",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102 from Globex Inc",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T02:53:04.596740",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "URGENT: Overdue Invoice INV-103 from Soylent Corp - Action Required",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T02:53:06.789923",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "URGENT: FINAL NOTICE - Overdue Invoice INV-104 - Initech",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T02:53:06.791385",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T03:11:20.575674",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Friendly Reminder: Invoice INV-101 from Acme Corp",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T03:11:23.708054",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Overdue Payment Reminder: Invoice INV-102 from May 01, 2026",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T03:11:26.216069",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "URGENT: Overdue Invoice INV-103 from Soylent Corp - Immediate Action Required",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T03:11:29.265775",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "FINAL WARNING: Immediate Payment Required for Overdue Invoice INV-104 - Initech",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T03:11:29.267582",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T03:15:08.381389",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Friendly Reminder: Invoice INV-101 from [Your Company Name] is 3 Days Overdue",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T03:15:13.805296",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102 from Globex Inc - Action Required",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T03:15:19.590935",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "URGENT: Overdue Invoice INV-103 - Immediate Payment Required",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T03:15:26.976979",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "URGENT: Final Warning - Immediate Payment Required for Overdue Invoice INV-104 - Initech",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T03:15:26.979680",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T03:42:51.577995",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Friendly Reminder: Invoice INV-101 from Acme Corp",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T03:42:53.976735",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Reminder: Overdue Invoice INV-102 from [Your Company Name]",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T03:42:56.385507",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "URGENT: Overdue Invoice INV-103 from Soylent Corp - Immediate Action Required",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T03:42:59.293083",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "FINAL WARNING: Immediate Payment Required for Overdue Invoice INV-104 - Initech",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T03:42:59.293869",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T03:43:21.418315",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Friendly Reminder: Invoice INV-101 from [Your Company Name]",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T03:43:25.908660",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102 from May 01, 2026",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T03:43:26.768600",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:12:01.815218",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:12:17.320404",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:31:49.299764",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:35:15.730912",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:35:16.077811",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:35:16.223526",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:35:16.565896",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:35:16.584456",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:36:29.047285",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:36:29.355804",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:36:29.647790",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:36:29.979965",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:36:29.998650",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:44:28.779267",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:44:29.053676",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:44:29.399087",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:44:29.672835",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:44:29.696072",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:45:35.963656",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:45:36.273873",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:45:36.592365",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:45:36.896310",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:45:36.919275",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:51:11.890003",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:51:12.034956",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:51:12.438929",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:51:12.609296",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:51:12.639122",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:53:33.104892",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:53:33.360842",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:53:33.705346",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:53:33.962578",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:53:33.984899",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:54:20.334969",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:54:20.640536",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:54:20.948411",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:54:21.279503",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T11:54:21.304248",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T11:59:37.832310",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:59:38.136395",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:59:38.436729",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:59:38.743174",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "dry-run"
+    },
+    {
+        "timestamp": "2026-05-11T11:59:38.771534",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T12:01:07.190488",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:01:07.522760",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:01:07.681366",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:01:08.024046",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:01:08.046416",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T12:01:16.043798",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:01:16.421718",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:01:16.583426",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:01:16.915777",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:01:16.942386",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T12:02:46.973276",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T12:02:48.177983",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T12:02:48.765865",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T12:02:49.337821",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T12:02:49.364410",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T12:03:50.611972",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T12:03:51.055750",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T12:03:51.615768",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T12:03:52.073710",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T12:03:52.094798",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T12:13:27.535814",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T12:13:29.542286",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:13:30.041944",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:13:30.546303",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:13:30.565743",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T12:14:51.869078",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T12:14:54.470738",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:14:56.454282",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:14:58.543948",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T12:14:58.610702",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T16:52:07.358992",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T16:52:09.903229",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T16:52:11.932704",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T16:52:14.526076",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T16:52:14.560708",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    },
+    {
+        "timestamp": "2026-05-11T16:54:10.663614",
+        "invoice_no": "INV-101",
+        "client_name": "Acme Corp",
+        "stage": 1,
+        "tone": "Friendly Reminder",
+        "subject": "Follow-up: Overdue Invoice INV-101",
+        "send_status": "sent"
+    },
+    {
+        "timestamp": "2026-05-11T16:54:12.625466",
+        "invoice_no": "INV-102",
+        "client_name": "Globex Inc",
+        "stage": 2,
+        "tone": "Polite but Firm",
+        "subject": "Follow-up: Overdue Invoice INV-102",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T16:54:15.207163",
+        "invoice_no": "INV-103",
+        "client_name": "Soylent Corp",
+        "stage": 3,
+        "tone": "Urgent Request",
+        "subject": "Follow-up: Overdue Invoice INV-103",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T16:54:17.776544",
+        "invoice_no": "INV-104",
+        "client_name": "Initech",
+        "stage": 4,
+        "tone": "Final Warning",
+        "subject": "Follow-up: Overdue Invoice INV-104",
+        "send_status": "failed"
+    },
+    {
+        "timestamp": "2026-05-11T16:54:17.810224",
+        "invoice_no": "INV-105",
+        "client_name": "Umbrella Corp",
+        "stage": 5,
+        "tone": "ESCALATED",
+        "subject": "N/A",
+        "send_status": "escalated"
+    }
+]
